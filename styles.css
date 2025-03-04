@@ -1,5 +1,4 @@
 .container{
-    /* border: solid 1px; */
     width: 65%;
     height: 700px;
     display: flex;
@@ -9,7 +8,6 @@
 }
 
 .inner-container{
-    /* border-right: 1px solid; */
     width: 50%;
     padding-left: 10px;
    
@@ -39,7 +37,7 @@ img{
 .names-container{
     display: flex;
     margin-top: 35px;
-    gap: 110px;
+    gap: 120px;
 }
 .names-container input{
     width: 95%;
