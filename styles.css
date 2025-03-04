@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     background-color: #f5e8ff;
+    margin-top: 30px;
 }
 
 .inner-container{
@@ -25,11 +26,15 @@
 body{
     display: flex;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    background-color: #f5e8ff;;
+ 
 }
 
 img{
     width: 95%;
-    /* margin-top: 25px; */
 }
 .names-container{
     display: flex;
@@ -37,29 +42,25 @@ img{
     gap: 110px;
 }
 .names-container input{
-    width: 90%;
+    width: 95%;
 }
 .input {
     padding: 10px 12px;
     width: 88%;
     margin-top: 10px;
-    border: 1px solid rgb(187, 184, 184);
+    border: 0.5px solid rgb(187, 184, 184);
     border-radius: 4px;
-    /* position: relative; */
 }
 #submit_button {
-    /* background: none; */
     background-color: #9e51b2;
     border: 1px solid;
     padding: 12px 8px;
     color: white;
     cursor: pointer;
-    /* margin: 20px ; */
     margin-top: 18px;
     margin-bottom: 15px;
     width: 94%;
     border-radius: 5px;
-    /* margin-right: 20px; */
 
 }
 .icons{
@@ -74,9 +75,7 @@ img{
 
 .inter-icon{
     background-color:white;
-    /* width: 15%; */
     padding: 8px 30px;
-    /* padding-left: 10px; */
 }
 
 .inter-icon i{
@@ -88,4 +87,9 @@ flex-direction: row;
 gap: 7px;
 margin-top: 20px;
 margin-left: 10px;
+}
+.name-inputs{
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid rgb(187, 184, 184)
 }
